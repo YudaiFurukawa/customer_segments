@@ -14842,8 +14842,8 @@ MzMzMzMzs7b8P6YbhZeIVDkmAAAAAElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-Milk and Grocery, Milk and Detergents_Paper, and Grocery and Detergents_Paper seem to have some degree of correlation. 
-For correlation and Milk and Grocery, that kind of makes sense as they are sold together in grocery stores and retailers. The data distribution for both datas are both skewed to the left. For Milk and Detergents_Paper, I did not expect there is a correlation between those categories. The data distribution for both datas are both skewed to the left. Especially the correlation between Grocery and Detergents_Paper makes sense for me as they are often sold together. The data distributions for Grocery and Detergents_Paper are both skewed to the left.</p>
+Milk and Grocery, Milk and Detergents_Paper, and Grocery and Detergents_Paper seem to have some degree of positive correlation. 
+For correlation between Milk and Grocery, it confirms my suspicion as they are sold together in grocery stores and retailers. The data distribution for both datas are skewed to the left. For Milk and Detergents_Paper, I did not expect there is a correlation between those product categories. The data distribution for the datas are both skewed to the left. The correlation between Grocery and Detergents_Paper confirms my suspicion as they are often sold together. The data distributions for Grocery and Detergents_Paper are both skewed to the left.</p>
 
 </div>
 </div>
@@ -21245,7 +21245,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-Data 65, 75 and 154 are considered outliers for more than one feature. I removed outliers 65, 75, and 154 as they are outliers in more than one categories and therefore they seem to be nuisance.</p>
+Data 65, 75 and 154 are considered outliers for more than one feature. I removed outliers 65, 75, and 154 as they are outliers in more than one feature and therefore they seem to be nuisance to the dataset.</p>
 
 </div>
 </div>
@@ -23845,7 +23845,7 @@ AAAATBihHgAAAABMGKEeAAAAAEyY/x++ETenWb/sVgAAAABJRU5ErkJggg==
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
 The advantages to using a K-Means clustering algorithm are that it may be faster than using other algorithms with a large number of variables and it may produce tighter clusters than hierarchical clustering especially if the cluster are globular.
-The adcantages to using a Gaussian Mixture Model clustering algorithm are cluster assignment is much more flexible than in K-means clustering as each cluster can have unconstrained covariance structure and each point can belong to multiple clusters with a different degree. I would choose a Gaussian Mixture Model clustering for this project as it seems more appropriate to use this algorithm to find out unknown clusters since it is more flexible compared to K-Means clustering as discussed above and it.</p>
+The advantages to using a Gaussian Mixture Model clustering algorithm are cluster assignment is much more flexible than in K-means clustering as each cluster can have unconstrained covariance structure and each point can belong to multiple clusters with a different degree. I would choose a Gaussian Mixture Model clustering for this project as, to find out unknown underlying clusters, it is more flexible compared to K-Means clustering.</p>
 
 </div>
 </div>
@@ -25214,7 +25214,8 @@ cduhYa1FJxkAAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-Segment 0 should represent retailers as the amount of spending on grocery is way larger than its median. Segment 1 should represent other establishments such as restaurants, hotels, and cafes as it has far less spending on Detergents_Paper compared to the median value.</p>
+Segment 0 should represent establishments other than retailers such as restaurants and cafes as it has low spending on Detergents_Paper compared to the median value.
+Segment 1 should represent retailers as the amount of spending on Grocery and Detergents_Paper are large compared to its median amount of spending.</p>
 
 </div>
 </div>
@@ -25310,7 +25311,7 @@ Sample point 2 should be represented by segment 0 as spending on Grocery is high
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-The wholesale distributor can run A/B tests in each customer segment and compare the reactions in order to know which customer segment has positive or negative effects by the change.</p>
+The wholesale distributor can run A/B tests in each customer segment and compare the reactions in order to know which customer segment has positive or negative effects as a result of the change.</p>
 
 </div>
 </div>
@@ -25333,7 +25334,7 @@ The wholesale distributor can run A/B tests in each customer segment and compare
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-The wholesale distributor can add predicted customer segment as a new engineered feature to the original customer data and train a supervised learning algorithm on the combined dataset using custoemr segment as the target variable. After training the algorithm, the wholesale distributor simply use the algorithm to predict custoemr segments for the new customers.</p>
+The wholesale distributor can add predicted customer segment as a new engineered feature to the original customer data and train a supervised learning algorithm on the combined dataset using custoemr segment as the target variable. After training the algorithm, the wholesale distributor can use the algorithm to predict customer segments for the new customers.</p>
 
 </div>
 </div>
